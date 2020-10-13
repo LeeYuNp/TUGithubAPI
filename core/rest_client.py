@@ -48,4 +48,5 @@ class RestClient():
 if __name__ == '__main__':
     r = RestClient("http://httpbin.org")
     x = r.post("/post", json={"a": "b"})
-    print(x.text)
+    # print(x.text)
+    print('test')
